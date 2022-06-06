@@ -78,19 +78,18 @@ body {
   font-size: 30px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 900;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
 }
 
 h1 {
   font-size: 50px;
   color: red;
   font-style: italic;
+}
+
+.first-p {
+  color: aqua;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 2px 2px 2px black;
 }
